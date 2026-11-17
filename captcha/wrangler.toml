@@ -1,0 +1,6 @@
+#:schema node-wrangler
+name = "captcha"
+main = "worker.js"
+compatibility_date = "2026-11-01"
+
+# Required secret: wrangler secret put CAPTCHA_SECRET

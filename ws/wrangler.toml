@@ -1,0 +1,14 @@
+#:schema node-wrangler
+name = "ws"
+main = "worker.js"
+compatibility_date = "2026-10-31"
+
+# Required secret: wrangler secret put ROOM_KEY
+
+[[durable_objects.bindings]]
+name = "MY_DO"
+class_name = "ws"
+
+[[migrations]]
+tag = "v1"
+new_classes = ["ws"]

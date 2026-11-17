@@ -1,0 +1,6 @@
+#:schema node-wrangler
+name = "tba"
+main = "worker.js"
+compatibility_date = "2026-06-10"
+
+# Required secret: wrangler secret put PROXY_KEY
